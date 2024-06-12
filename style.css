@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+body {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.cont h2 {
+  color: #fff;
+  font-size: 22px;
+}
+.cont p {
+  color: #fff;
+  font-size: 16px;
+}
+.cont img {
+  vertical-align: middle;
+}
+
+section .mainbox .mainBox4 .cont, .cont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+section .mainbox .mainBox4 .box .box1 div {
+  max-width: 100px;
+  width: 100%;
+  background-color: #a259ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+  transition: all 1s;
+}
+
+section .mainbox .mainBox4 .box .box1 div:hover {
+  filter: drop-shadow(0 0 10px #000e45);
+  background-color: #e3a524;
+}
+
+section .mainbox .mainBox5 .box14 a, section .mainBox2 .box3 a, nav .mainBox .box2 .btn {
+  background-color: #a259ff;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 600;
+  transition: all 1s;
+  max-width: 190px;
+}
+section .mainbox .mainBox5 .box14 a img, section .mainBox2 .box3 a img, nav .mainBox .box2 .btn img {
+  vertical-align: middle;
+}
+
+section .mainbox .mainBox5 .box14 a:hover, section .mainBox2 .box3 a:hover, nav .mainBox .box2 .btn:hover {
+  transform: rotateX(30deg);
+  background-color: #000;
+}
+
+section .mainbox .mainBox4 .box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  transition: all 1s;
+}
+
+section .mainbox .mainBox4 .box:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(0 0 10px #145842);
+}
+
+section .mainbox .mainBox4 .box .box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .mainbox, section .mainBox2 {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1050px;
+  gap: 70px;
+  margin: auto;
+}
+
+section .mainbox .mainBox5, section .mainbox .mainBox3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: #fff;
+}
+section .mainbox .mainBox5 h1, section .mainbox .mainBox3 h1 {
+  color: #fff;
+  font-size: 36px;
+}
+section .mainbox .mainBox5 p, section .mainbox .mainBox3 p {
+  color: #fff;
+  font-size: 22px;
+}
+
+section .mainbox .mainBox4 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+section .mainbox .mainBox8 .vW, section .mainbox .mainBox8 .sport, section .mainbox .mainBox8 .utility, section .mainbox .mainBox8 .video, section .mainbox .mainBox8 .photo, section .mainbox .mainBox8 .music, section .mainbox .mainBox8 .collect, section .mainbox .mainBox8 .exo {
+  max-width: 240px;
+  width: 100%;
+}
+
+.hamb .burger {
+  display: none;
+  max-width: 50px;
+  width: 100%;
+}
+.hamb .del {
+  display: none;
+  width: 50px;
+  margin-left: 100px;
+}
+.hamb ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  color: #fff;
+}
+
+.icon {
+  max-width: 240px;
+  height: 240px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.icon:hover {
+  max-width: 240px;
+  height: 240px;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+  transform: translateY(-10px);
+}
+
+.foot {
+  background-color: #3b3b3b;
+  padding: 20px 20px;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+  font-size: 22px;
+}
+
+nav .mainBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  max-width: 1280px;
+  margin: auto;
+}
+nav .mainBox .box a {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  color: #fff;
+}
+nav .mainBox .box a p {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav .mainBox .box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+nav .mainBox .box2 ul {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  align-items: center;
+}
+nav .mainBox .box2 ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+nav .mainBox .hamb {
+  display: none;
+}
+
+section .mainBox2 .box3 {
+  max-width: 410px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+section .mainBox2 .box3 h1 {
+  font-size: 67px;
+  color: #eee0ff;
+  font-weight: 600;
+}
+section .mainBox2 .box3 p {
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  text-transform: capitalize;
+}
+section .mainBox2 .box3 a .rocket {
+  transition: all 3s;
+}
+section .mainBox2 .box3 a .rocket:hover {
+  transform: translateX(130px);
+}
+section .mainBox2 .box3 .box5 {
+  display: grid;
+  grid-template-areas: "frt sec thd" "ts acs ats";
+  justify-content: space-between;
+  row-gap: 10px;
+}
+section .mainBox2 .box3 .box5 .frt {
+  grid-area: frt;
+}
+section .mainBox2 .box3 .box5 .sec {
+  grid-area: sec;
+}
+section .mainBox2 .box3 .box5 .thd {
+  grid-area: thd;
+}
+section .mainBox2 .box3 .box5 .ts {
+  grid-area: ts;
+}
+section .mainBox2 .box3 .box5 .acs {
+  grid-area: acs;
+}
+section .mainBox2 .box3 .box5 .ats {
+  grid-area: ats;
+}
+section .mainBox2 .box3 .box5 h2 {
+  font-size: 28px;
+  color: #fff;
+  font-style: oblique;
+}
+section .mainBox2 .box4 {
+  max-width: 510px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+}
+section .mainBox2 .box4 img {
+  max-width: 510px;
+  width: 100%;
+}
+section .mainBox2 .box4 .box6 {
+  background-color: #3b3b3b;
+  padding: 20px 10px;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+}
+section .mainBox2 .box4 .box6 .box7 {
+  display: flex;
+  padding-top: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  align-items: center;
+}
+section .mainBox2 .box4 .box6 .box7 img {
+  max-width: 24px;
+  width: 100%;
+}
+section .mainBox2 .box4:hover {
+  filter: drop-shadow(0 0 10px #457454);
+  transform: translateY(-10px);
+}
+
+section .mainbox {
+  flex-direction: column;
+  row-gap: 60px;
+}
+section .mainbox .mainBox3 h2 {
+  color: #fff;
+  font-size: 36px;
+}
+section .mainbox .mainBox3 p {
+  color: #fff;
+  font-size: 22px;
+}
+section .mainbox .mainBox4 .box img {
+  max-width: 330px;
+  width: 100%;
+}
+section .mainbox .mainBox4 .cont h2 {
+  color: #fff;
+  font-size: 22px;
+}
+section .mainbox .mainBox4 .cont p {
+  color: #fff;
+  font-size: 16px;
+}
+section .mainbox .mainBox4 .cont img {
+  width: 24px;
+  vertical-align: middle;
+}
+
+section .mainbox {
+  flex-direction: column;
+  row-gap: 60px;
+  padding-bottom: 80px;
+}
+section .mainbox .mainBox5 .box14 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .mainbox .mainBox5 .box14 a {
+  background-color: unset;
+  border: 2px solid #a259ff;
+  padding: 10px 20px;
+}
+section .mainbox .mainBox6 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+section .mainbox .minBox2 {
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  transition: all 1s;
+}
+section .mainbox .minBox2 h2 {
+  color: #fff;
+  font-size: 22px;
+}
+section .mainbox .minBox2 p {
+  color: #60605f;
+  font-size: 16px;
+}
+section .mainbox .minBox2 span {
+  color: #fff;
+  font-size: 16px;
+}
+section .mainbox .minBox2:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(0 0 10px red);
+}
+
+section .mainbox {
+  padding-top: 80px;
+  row-gap: 60px;
+}
+section .mainbox div h2 {
+  font-size: 38px;
+  color: #fff;
+}
+section .mainbox .mainBox8 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 90px;
+  padding-bottom: 80px;
+}
+section .mainbox .mainBox8 .exo {
+  background-image: url(images/Category/Placeholder1.png);
+}
+section .mainbox .mainBox8 .collect {
+  background-image: url(images/Category/Placeholder\ 2.png);
+}
+section .mainbox .mainBox8 .music {
+  background-image: url(images/Category/Placeholder\ 3.png);
+}
+section .mainbox .mainBox8 .photo {
+  background-image: url(images/Category/Placeholder\ 4.png);
+}
+section .mainbox .mainBox8 .video {
+  background-image: url(images/Category/Placeholder\ 5.png);
+}
+section .mainbox .mainBox8 .utility {
+  background-image: url(images/Category/Placeholder\ 6.png);
+}
+section .mainbox .mainBox8 .sport {
+  background-image: url(images/Category/Placeholder\ 7.png);
+}
+section .mainbox .mainBox8 .vW {
+  background-image: url(images/Category/Placeholder\ 8.png);
+}
+
+@media screen and (max-width: 768px) {
+  nav .mainBox {
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+  }
+  nav .mainBox .box2 {
+    display: none;
+  }
+  nav .mainBox .box2 ul {
+    display: flex;
+    flex-direction: column;
+    left: 150px;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(32, 32, 33, 0.774);
+    padding: 20px;
+  }
+  nav .mainBox .hamb {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  nav .mainBox .hamb .burger {
+    display: block;
+    max-width: 50px;
+    width: 100%;
+  }
+  nav .mainBox .hamb .del {
+    display: none;
+    width: 50px;
+  }
+  .mainBox4 {
+    flex-wrap: wrap;
+    max-width: 768px;
+    width: 100%;
+    justify-content: center;
+  }
+  .mainBox2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mainBox5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 425px) {
+  section .mainBox2 .box3 {
+    padding: 15px;
+  }
+  section .mainBox2 .box3 h1 {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=style.css.map */
